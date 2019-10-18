@@ -55,8 +55,10 @@
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" remote="blaze" clone-depth="1" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="blaze" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="blaze" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaze" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="blaze" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaze" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaze" />
