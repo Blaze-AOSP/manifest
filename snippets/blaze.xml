@@ -80,6 +80,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaze" />
 
   <!-- System -->
+  <project path="system/bt" name="system_bt" remote="blaze" />
   <project path="system/core" name="system_core" remote="blaze" />
   <project path="system/netd" name="system_netd" remote="blaze" />
   <project path="system/vold" name="system_vold" remote="blaze" />
