@@ -79,6 +79,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaze" />
+  <project path="packages/overlays/Blaze" name="packages_overlays_Blaze" remote="blaze" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="blaze" />
