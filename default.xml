@@ -1106,6 +1106,8 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/blaze.xml" />
-  <include name="snippets/lineage.xml" />
+  <include name="snippets/pixel.xml" />
+  <include name="snippets/pixel-extras.xml" />
+  <include name="snippets/pixel-caf.xml" />
 
 </manifest>
