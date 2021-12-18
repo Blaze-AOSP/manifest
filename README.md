@@ -9,6 +9,8 @@
  * [**BootleggersROM**](https://github.com/BootleggersROM)
  * [**AospExtended**](https://github.com/AospExtended)
  * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**ArrowOS**](https://github.com/ArrowOS)
+ * [**ProtonAOSP**](https://github.com/ProtonAOSP)
 
 
 ## Getting Started ##
@@ -18,13 +20,12 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/Blaze-AOSP/manifest -b 10.0
+repo init -u https://github.com/Blaze-AOSP/manifest -b 12.0
 ```
 ## Syncing Source ##
 
 ```bash
-repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jX
-( X is the number of parallel download repo should do choose depending on your cpu )
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ## Building ##
