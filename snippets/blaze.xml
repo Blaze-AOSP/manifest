@@ -86,4 +86,7 @@
   <!-- Vendor -->
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
 
+  <!-- GApps -->
+  <project path="vendor/google" name="dinosnore1/vendor_gapps" clone-depth="1" remote="gitlab" revision="12.0" />  
+
 </manifest>
