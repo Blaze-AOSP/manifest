@@ -79,6 +79,7 @@
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="blaze" />
   <project path="system/core" name="system_core" remote="blaze" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="blaze" />
   <project path="system/netd" name="system_netd" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
   <project path="system/vold" name="system_vold" remote="blaze" />
